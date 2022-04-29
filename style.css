@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100vw;
+}
+
+header {
+    height: 30vh;
+    background-image: url(./images/bg-mobile-light.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 1.5rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    width: 100%;
+    padding: 1rem 3rem;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin: 2rem auto;
+}
+
+.todo-list {
+    padding: 1rem 3rem;
+    border-radius: 7px;
+    margin: 0 1.5rem;
+    margin-top: -30px;
+    background-color: white;
+    box-shadow: 0 0 5px 10px rgb(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.todo-list-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.states {
+    position: relative;
+    bottom: -80px;
+    padding: 1rem 3rem;
+    border-radius: 7px;
+    background-color:white;
+    box-shadow: 0 0 5px 10px rgb(0, 0, 0, 0.05);
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.foot {
+    text-align: center;
+    margin: 2rem auto;
+}
